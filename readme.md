@@ -24,7 +24,7 @@
 - Deploy a service that periodically pulls user-confirmed spec sections, and train on them. Keep it in the dark until numbers look good. Eventually it generate recommendations to users if the existing service fails to extract data from specification.
 
 ### Tech debts
-- Explore different pdf readers
+- Explore different pdf readers. E.g., [pdf miner](https://github.com/pdfminer/pdfminer.six)
 - Write a method to update existing csv files when features get updated
 - Refactoring (e.g., properly use class variables/methods)
 - Explore more features and functionalities to support other classifications as necessary
